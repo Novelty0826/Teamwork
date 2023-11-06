@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<view class="content">
+    <view class="picture1">
+        <image src='../../images/微信图片_20231003022722.png'></image>
+    </view>
+</view>

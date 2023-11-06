@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/功能页/功能页",
+    "pages/规则页/规则页",
+    "pages/排行榜/排行榜"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3F97D7",
+    "navigationBarTitleText": "摇骰子",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2"
+}

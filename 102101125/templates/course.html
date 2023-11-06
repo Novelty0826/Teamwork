@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>课程名单</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>课程名</th>
+        <th>学生姓名</th>
+        <th>迟到次数</th>
+        <th>修改</th>
+        <th>删除</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for k in courses.sc %}
+        <tr>
+        <td>{{ courses.cid }}</td>
+        <td>{{ k.studentname }}</td>
+        <td>{{ k.latecount }}</td>
+        <td>
+            <a href="/courseedit?cour={{ courses.cid }}&id={{ k.studentname }}&late={{ k.latecount }}">编辑</a>
+        </td>
+        <td>
+            <a href="/delete?cour={{ courses.cid }}&id={{ k.studentname }}&late={{ k.latecount }}">删除</a>
+        </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

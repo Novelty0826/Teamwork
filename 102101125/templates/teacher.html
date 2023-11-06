@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>课程名单</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>教师</th>
+        <th>课程号</th>
+        <th>名单信息</th>
+    </tr>
+    </thead>
+    <tbody>
+{% for k in result.course %}
+    <tr>
+    <td>{{ result.teachername }}</td>
+    <td >{{k.cid }}</td>
+    <td>
+        <a href="course/{{ k.cid }}">查看</a>
+    </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

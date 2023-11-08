@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/首页/首页",
+    "pages/功能页/功能页",
+    "pages/规则页/规则页",
+    "pages/排行榜/排行榜"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2"
+
+}

@@ -1,0 +1,35 @@
+/* pages/dljm/dljm.wxss */
+.background {
+    display: flex;
+    flex-direction: column;
+}
+
+.background-image {
+    width: 100%;
+    height: 1450rpx;
+}
+
+.background-content {
+    position: absolute;
+    z-index: 1;
+}
+
+.container1 {
+    padding: 100rpx 270rpx;
+    position: center;
+    display: flex;
+    justify-content: space-between;
+}
+.container1 .item {
+    flex:1;
+    text-align: center;
+}
+.container1 image{
+    width: 200rpx;
+    height: 200rpx;
+    
+}
+.text1{
+    text-align: center;
+    font-size: 36rpx;
+}

@@ -1,0 +1,5 @@
+/**index.wxss**/
+.content image{
+  width: 100%;
+  height: 800px;
+}

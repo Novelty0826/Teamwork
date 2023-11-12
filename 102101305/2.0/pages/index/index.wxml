@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="content">
+    <image src='/images/背景图1.png'></image>
+</view>

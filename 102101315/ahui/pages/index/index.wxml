@@ -1,0 +1,10 @@
+<view class="container">
+    <view>
+        <text>{{students[currentStudentIndex].name}}</text>
+    </view>
+    <view>
+        <button class="status-btn" bindtap="markAsPresent">出席</button>
+        <button class="status-btn" bindtap="markAsAbsent">旷课</button>
+        <button class="status-btn" bindtap="markAsLeave">请假</button>
+    </view>
+</view>

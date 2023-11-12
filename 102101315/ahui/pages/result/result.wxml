@@ -1,0 +1,14 @@
+<view class="container">
+    <view>
+        <text>旷课人数：{{absentCount}}</text>
+        <view wx:for="{{absentStudents}}" wx:key="id" class="student-info">
+            {{item.id}} - {{item.name}}
+        </view>
+    </view>
+    <view>
+        <text>请假人数：{{leaveCount}}</text>
+        <view wx:for="{{leaveStudents}}" wx:key="id" class="student-info">
+            {{item.id}} - {{item.name}}
+        </view>
+    </view>
+</view>

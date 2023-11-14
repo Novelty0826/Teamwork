@@ -1,0 +1,11 @@
+<!--pages/dljm/dljm.wxml-->
+<view class='background'>
+ <image class='background-image'src='/images/背景图1.png'></image>
+
+<view class="background-content">
+<view>注册页面</view>
+    
+
+</view>
+</view>   
+   

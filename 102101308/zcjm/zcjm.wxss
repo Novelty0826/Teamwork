@@ -1,0 +1,29 @@
+/* pages/zcjm/zcjm.wxss *//* pages/dljm/dljm.wxss */
+.background {
+    display: flex;
+    flex-direction: column;
+    z-index: -999;
+}
+
+.background-image {
+    width: 100%;
+    height: 1450rpx;
+}
+
+.background-content {
+    position: absolute;
+    z-index: 1;
+}
+
+.background-content .text1 {
+    position: flex;
+    text-align: center;
+    z-index: 1;
+}
+
+.text1{
+    position:relative;
+    text-align: center;
+    font-size: 48rpx;
+
+}

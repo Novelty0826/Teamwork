@@ -1,0 +1,18 @@
+<!-- 结果页面（例如：result.wxml） -->
+<view class="container">
+  <view class="status-list">
+    <text>旷课：</text>
+    <view class="student-item" wx:for="{{absentStudents}}" wx:key="id">
+      <text class="student-name">姓名：{{item.name}}</text>
+      <text class="student-id">学号：{{item.id}}</text>
+    </view>
+  </view>
+  
+  <view class="status-list">
+    <text>请假：</text>
+    <view class="student-item" wx:for="{{leaveStudents}}" wx:key="id">
+      <text class="student-name">姓名：{{item.name}}</text>
+      <text class="student-id">学号：{{item.id}}</text>
+    </view>
+  </view>
+</view>

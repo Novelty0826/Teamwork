@@ -1,0 +1,18 @@
+<view>
+    <table border="1">
+        <tr>
+            <th>学号</th>
+            <th>姓名</th>
+            <th>请假次数</th>
+            <th>旷课次数</th>
+        </tr>
+        <block wx:for="{{studentsList}}" wx:key="*this">
+          <tr>
+              <td>{{item.id}}</td>
+              <td>{{item.name}}</td>
+              <td>{{item.leave}}</td>
+              <td>{{item.absent}}</td>
+          </tr>
+        </block>
+    </table>
+</view>

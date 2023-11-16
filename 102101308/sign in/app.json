@@ -1,0 +1,18 @@
+{
+    "pages": [
+        "pages/dljm/dljm",
+        "pages/zcjm/zcjm",
+        "pages/kcy/kcy",
+        "pages/jssy/jssy"
+        
+        
+        
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "SIGN IN",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2"
+}

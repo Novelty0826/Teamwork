@@ -1,0 +1,45 @@
+import org.apache.spark.{SparkConf, SparkContext}
+
+object SportsResultsAnalysisRDD {
+
+  def main(args: Array[String]): Unit = {
+    val conf = new SparkConf().setAppName("SportsResultsAnalysisRDD").setMaster("local[*]")
+    val sc = new SparkContext(conf)
+
+    // 读取数据
+    val data = sc.textFile("file:///usr/local/spark/mycode/school/运动会数据.txt")
+
+    // 过滤掉表头行
+    val filteredData = data.filter(!_.startsWith("比赛项目"))
+
+    // 将数据按逗号分割，并提取比赛项目和成绩
+   val parsedData = filteredData.map { line =>
+    val columns = line.split(", ")
+	  if (columns.length >= 4) {
+	    val sport = columns(0)
+	    val score = columns(3).toDouble
+	    Some((sport, score))
+	  } else {
+	    None
+	  }
+	}.flatMap(x => x)
+
+
+
+    // 计算每个比赛项目的总成绩和数量
+    val sumCount = parsedData.aggregateByKey((0.0, 0))(
+      (acc, value) => (acc._1 + value, acc._2 + 1),
+      (acc1, acc2) => (acc1._1 + acc2._1, acc1._2 + acc2._2)
+    )
+
+    // 计算每个比赛项目的平均成绩
+    val averageScores = sumCount.mapValues { case (total, count) => total / count }
+
+    // 显示结果
+    averageScores.collect().foreach { case (sport, avgScore) =>
+      println(s"比赛项目: $sport, 平均成绩: $avgScore")
+    }
+
+    sc.stop()
+  }
+}

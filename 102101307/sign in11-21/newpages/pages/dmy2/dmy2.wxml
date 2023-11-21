@@ -1,0 +1,31 @@
+
+<view class='background'>
+    <image class='background-image'src='/images/背景图2.png'>
+    </image>
+    <view class ='background-content'>
+        
+        <view class='container1'>
+              <view class='numbertext'>{{number}}</view>
+              <view class='nametext1'>{{sname1}}</view>
+              <view class='nametext'>{{sname}}</view>
+        </view>
+
+        <!-- <view class='container2'>
+            <button class='s1' bindtap="jump2">到位</button>
+            <button class='s2'bindtap="jump2">缺勤</button>
+            <button class='s3'bindtap="jump2">请假</button>
+        </view> -->
+        <view class='content'>
+             <!-- <button style="width: 150px; "class='s4'>上一个</button> -->
+             <button style="width: 300px; "class='s4'bindtap="jumpover">结束点名</button>
+        </view>
+        <button class='s1' bindtap="jump2">到位</button>
+    </view>
+        
+
+
+
+
+
+
+</view>

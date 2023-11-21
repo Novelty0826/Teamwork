@@ -1,0 +1,134 @@
+/* pages/dljm/dljm.wxss */
+.background {
+    display: flex;
+    flex-direction: column;
+    width: 750rpx;
+    height: 1334rpx;
+}
+
+.background-image {
+    width: 750rpx;
+    height: 1334rpx;
+}
+
+.background-content {
+    position: absolute;
+    z-index: 1;
+   margin-top: 80rpx;
+}
+
+.container1 {
+    padding: 100rpx 270rpx;
+    position: center;
+    display: flex;
+    height: 160rpx;
+    justify-content: space-between;
+    margin-top: 60rpx;
+}
+.container1 .item {
+    flex:1;
+    text-align: center;
+}
+.container1 image{
+    width: 200rpx;
+    height: 200rpx;
+    
+}
+.text1{
+    text-align: center;
+    font-size: 36rpx;
+}
+
+.container2 {
+
+position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top:10rpx;
+}
+
+.container2-image{
+    width: 450rpx;
+    height: 450rpx;
+}
+
+input{
+    border: 4rpx solid #eee;
+    width: 530rpx;
+    margin: 10rpx;
+    padding: 10rpx;
+    height: 48rpx;
+    border-radius: 100rpx;
+    font-size: 40rpx;
+}
+
+.mybotton{
+    display: flex;
+    flex-direction: row;
+}
+.my-button{
+    font-size:45rpx;
+    border: 2rpx solid rgb(156, 173, 245);
+    margin: 10rpx;
+    padding: 10rpx;
+    border-radius: 100rpx;
+    width: 40rpx;
+    height: 90rpx;
+    background-color: #74ade9; 
+    color: #ffffff; 
+    margin-top: 30rpx;
+      
+}
+
+.zh-image{
+    width:80rpx;
+    height: 80rpx;
+    margin-right: 10rpx;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40rpx;
+    margin-top: 20rpx;
+}
+.ps-image{
+    width:72rpx;
+    height: 72rpx;
+    margin-right: 10rpx;
+}
+.choice{
+    align-items: center;
+    font-size: 40rpx;
+    width: 200rpx;
+    height: 150rpx;
+    margin-left: 100rpx;
+    margin-right: 10rpx;
+    margin-top: 30rpx;
+}
+.choice text2{
+    position: flex;
+    align-items: center;
+    font-size: 42rpx;
+    margin-top: 50rpx;
+    height:40rpx;
+    width:750rpx;
+}
+.choicebind
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-color:rgb(107, 104, 104,0.2);
+    align-items: center;
+    width: 400rpx;
+    height: 80rpx;
+    margin-left: 180rpx;
+    margin-right: 10rpx;
+    margin-top: 30rpx;
+    border-radius: 25px;
+    font-size: 40rpx;
+}

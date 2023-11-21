@@ -1,0 +1,41 @@
+<!--pages/dljm/dljm.wxml-->
+<view class='background'>
+ <image class='background-image'src='/images/背景图1.png'></image>
+
+
+<view class="container1">
+      <view class="text1">注册</view>
+      <view class="wrap">
+        <input placeholder="{{msg1}}"  bindinput="inputhandler"></input>
+<image src="/images/手机.png"class="sj-image"></image>
+
+</view>
+
+<view class="wrap">
+
+<input placeholder="{{msg2}}"  bindinput="inputhandler2"></input>
+<image src="/images/password1.png"class="ps-image"></image>
+</view>
+<view class="wrap">
+
+<input placeholder="{{msg3}}"  bindinput="inputhandler2"></input>
+<image src="/images/隐私、私密、保密.png"class="ps-image"></image>
+</view>
+
+<view class='choice'>
+<view class='text2'>请选择用户类型</view>
+  <picker class='choicebind' bindchange="pickerchange" range="{{items}}" value="{{index}}">
+  <view class='text2'>{{items[index]}}</view>
+  </picker>
+</view>
+
+
+<!--确认按钮-->
+<button class="custom-button"bindtap="jump3">
+确认</button>
+
+</view>
+    
+
+</view>   
+   

@@ -1,0 +1,121 @@
+/* newpages/pages/kcy/kcy.wxss */
+.background {
+    display: flex;
+    flex-direction: column;
+    width: 750rpx;
+    height: 1334rpx;
+}
+
+.background-image {
+    width: 750rpx;
+    height: 1334rpx;
+}
+
+.background-content {
+    position: absolute;
+    z-index: 1;
+   margin-top: 80rpx;
+}
+.container1{
+    background-color: #f0f8ff;
+    position: relative;
+    width:600rpx;
+    height:400rpx;
+    top:100rpx;
+    left:70rpx;
+    border-radius: 25rpx;
+
+    display: flex;
+    justify-content: center;
+    
+  
+    border-radius: 25rpx;
+    display: flex;
+    flex-direction:column;
+}
+
+.container2 {
+    position: relative;
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    top:120rpx;
+    left: 150rpx;
+    /* left:140rpx; */
+}
+    
+.container2-image{
+    width: 450rpx;
+    height: 450rpx;
+}
+.text3{
+    position: relative;
+    
+    font-size: 64rpx;
+    
+    height:100rpx;
+    width:500rpx;
+    text-align: center;
+    margin-top:50rpx; 
+    margin-left: 30rpx;
+}
+.text4{
+    font-size: 48rpx;
+    height:150rpx;
+    width:500rpx;
+    text-align: center;
+    margin-top:60rpx; 
+    margin-left: 30rpx;
+    
+}
+
+.botton-container{
+    display: flex;
+    flex-direction:row;
+    height:100rpx;
+    width: 750rpx;
+    margin-top: 280rpx;
+    margin-left: 0rpx;
+
+}
+.botton-container1{
+    display: flex;
+    flex-direction:row;
+    height:130rpx;
+    width: 750rpx;
+
+    margin-top: 50rpx;
+    margin-left: 0rpx;
+
+}
+.custom-button {
+    background-color: hsl(227, 60%, 70%,0.8); /* 背景颜色 */
+    height: 100rpx;
+    color: white;
+    border: none; /* 无边框 */
+    color: rgb(107, 104, 104); /* 文字颜色 */
+    text-align: center; /* 文字居中 */
+    text-decoration: none; /* 无下划线 */
+    display: inline-block; /* 行内块级元素 */
+     /* 字体大小 */
+    margin: 4px 2px; /* 外边距 */
+    cursor: pointer; /* 鼠标悬停时变为手形 */
+    border-radius: 25px; /* 圆角 */
+    font-size: 48rpx;
+    
+    margin-top: 25rpx;
+    margin-left: 50rpx;
+  }
+  .wrap{
+    display: flex;
+    height:120rpx;
+    width:600rpx;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 75rpx;
+    margin-top: 200rpx;
+    border-radius: 25px; 
+    border: 1px solid #ccc;
+    font-size: 72rpx;
+    text-align: center;
+  }

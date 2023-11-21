@@ -1,0 +1,137 @@
+/* pages/jssy/jssy.wxss */
+.c1{
+  margin-top: 50rpx;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+}
+
+.background-image {
+    width: 750rpx;
+    height: 1334rpx;
+}
+
+.background-content {
+    position: absolute;
+    z-index: 1;
+    margin-top: 100rpx;
+}
+.container1{
+ 
+   background-color: rgb(214, 225, 235,0.5); 
+   height:370rpx;
+   width:650rpx;
+   margin-top:60rpx; 
+   margin-left: 50rpx;
+   border-radius: 30rpx;
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container1-image{
+    margin-top:20rpx;
+    margin-left: 30rpx;
+    width:350rpx;
+    height:350rpx;
+}
+.container1-text
+{
+    width:300rpx;
+    height:37s0rpx;
+}
+.textsample1
+{
+    font-size: 50rpx;
+    text-align: center;
+    margin-top: 60rpx;
+}
+.textsample2{
+    font-size: 37rpx;
+    text-align: center;
+    margin-top: 30rpx ;
+}
+.textsample3{
+    font-size: 40rpx;
+    text-align: center;
+    margin-top: 40rpx ;
+}
+.container2{
+    background-color: rgb(25, 215, 175);
+    height:240rpx;
+    width:500rpx;
+    display: flex;
+    justify-content: center;
+    margin-top:60rpx; 
+    margin-left: 120rpx;
+    border-radius: 25rpx;
+    display: flex;
+    flex-direction:column;
+  
+}
+.text3{
+    font-size: 45rpx;
+    height:100rpx;
+    width:500rpx;
+    
+    margin-top:40rpx; 
+    margin-left: 30rpx;
+}
+.text4{
+    font-size: 38rpx;
+    height:150rpx;
+    width:500rpx;
+    
+    margin-top:15rpx; 
+    margin-left: 30rpx;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+
+    position: fixed;
+    bottom: 30rpx;
+    left:70rpx;
+    width: 80%;
+    height: 140rpx;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 25rpx;
+  }
+  
+  /* wxss */
+
+  
+  .nav-icon {
+    width: 36px;
+    height: 36px;
+    margin-top: 5rpx;
+  }
+  .container1-text
+  {
+      width:300rpx;
+      height:37s0rpx;
+  }
+  .textsample{
+      display: flex;
+      flex-direction:row;
+  }
+  .pc-image0{
+      width: 36px;
+      height: 36px;
+      margin-top: 60rpx;
+      margin-left:10rpx ;
+  }
+  .pc-image{
+      width: 36px;
+      height: 36px;
+     
+  }
+  .textsample1
+  {
+      font-size: 50rpx;
+      text-align: center;
+      margin-top: 60rpx;
+  }

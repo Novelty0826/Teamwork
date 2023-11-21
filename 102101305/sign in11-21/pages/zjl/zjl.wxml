@@ -1,0 +1,47 @@
+<!--pages/zjl/zjl.wxml-->
+<view class='background'>
+    <image class='background-image'src='/images/背景图2.png'></image>
+    <view class ='background-content'>
+
+        <view class="container1">
+            <view class='text3' >{{classname}}</view>
+            <view class='text4'>{{building}}{{classroom}}    {{classdate}}{{classtime}}</view>
+        </view>
+
+        <view class="container2">
+  <view class="table-row">
+    <view class="table-cell" style="width: 30rpx;">学号</view>
+    <view class="table-cell" style="width: 30rpx;">姓名</view>
+    <view class="table-cell" style="width: 40rpx;">缺勤次数</view>
+    <view class="table-cell" style="width: 20rpx;">详情</view>
+  </view>
+  <block wx:for="{{jsonData}}" wx:for-item="item" wx:for-index="index">
+    <view class="table-row">
+      <view class="table-cell" style="width: 30rpx;">{{item.student_number}}</view>
+      <view class="table-cell" style="width: 30rpx;">{{item.student_name}}</view>
+      <view class="table-cell" style="width: 40rpx;">{{item.absence_count}}</view>
+      <view class="table-cell" bindtap="showdetails" style="width: 20rpx;">查看</view>
+    </view>
+  </block>
+</view>
+
+
+        <view class="navbar">
+  <navigator url="/pages/jssy/jssy" class="nav-icon">
+    <image src="/images/课程.png"class="nav-icon"></image>
+  <view class="nav-icon">首页</view>
+  </navigator>
+  <navigator url="/pages/jswd/jswd" class="nav-icon">
+    <image src="/images/我的.png"class="nav-icon"></image>
+  <view class="nav-icon">我的</view>
+  
+  </navigator>
+
+</view>       
+
+
+         
+
+    </view>
+</view>
+

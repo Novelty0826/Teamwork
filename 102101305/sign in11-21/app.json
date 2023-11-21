@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/dljm/dljm",
+        "pages/zcjm/zcjm",
+        "pages/zjl/zjl",
+        "pages/jssy/jssy",
+        "pages/jswd/jswd",
+        "pages/cjkc/cjkc"
+    ],
+    "subpackages": [
+        {
+            "root": "newpages",
+            "name": "newpages",
+            "pages": [
+                "pages/dmy/dmy",
+                "pages/kcy/kcy",
+                "pages/dmy2/dmy2",
+                "pages/jly/jly",
+                "pages/ccdm/ccdm"
+            ]
+        }
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "SIGN IN",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "style": "v2"
+}

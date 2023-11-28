@@ -1,0 +1,36 @@
+<!--newpages/pages/jly/jly.wxml-->
+<view class='background'>
+    <image class='background-image'src='/newpages/images/背景图2.png'>
+    </image>
+    <view class ='background-content'>
+        <view class='container1'>
+            <view class='text1'>点名情况</view>
+            <view class='text2'>{{classname}} {{classroom}} {{classdate}}{{classtime}}</view>
+        </view>
+        <view class='container2'>
+            <view class="text3">缺勤名单</view>
+        </view>
+        <view class='container3'>
+        <view class='text4'>10210101  张三丰</view>
+        <view class="text4">10210102  李一帆</view>
+        
+        </view>
+
+        <view class='container5'>
+            <view class="text3">缺勤名单</view>
+        </view>
+
+        <view class='container4'>
+        <view class='text4'>10210108 龙傲天</view>
+        <view class="text4">10210119  陆仁佳</view>
+        <view class="text4">10210130  张富豪</view>
+        </view>
+
+        <view class='content'>
+             <button style="width: 150px; "class='buttontype'bindtap='jumpback'>确定</button>
+             
+        </view>
+
+
+    </view>
+</view>

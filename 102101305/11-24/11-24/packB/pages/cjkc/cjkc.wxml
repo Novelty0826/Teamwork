@@ -1,0 +1,56 @@
+<!--pages/dljm/dljm.wxml-->
+<view class='background'>
+ <image class='background-image'src='/packB/images/背景图1.png'></image>
+
+
+<view class="container1">
+      <view class="text1">创建课程</view>
+      
+<!--选择器-->
+<view class="text2">选择教室</view>
+<view class='choicebind'>
+
+    <picker mode="multiSelector" range="{{multiArray}}" value="{{multiIndex}}" bindchange="bindMultiPickerChange">
+    <view class="picker">
+      {{multiArray[0][multiIndex[0]]}} - {{multiArray[1][multiIndex[1]]}}
+    </view>
+  </picker>
+</view>
+
+<view class="text2">选择时间</view>
+<view class='choicebind'>
+
+    <picker mode="multiSelector" range="{{multiArray1}}" value="{{multiIndex1}}" bindchange="bindMultiPickerChange1">
+    <view class="picker">
+      {{multiArray1[0][multiIndex1[0]]}} - {{multiArray1[1][multiIndex1[1]]}}
+    </view>
+  </picker>
+</view>
+      
+
+
+
+
+
+<button class="custom-button" bindtap="importexcel">选择Excel表格</button>
+
+<!--确认按钮-->
+<button class="custom-button2"bindtap="creatnow">确认</button>
+</view>
+
+
+<view class="navbar">
+  <navigator url="/packA/pages/jssy/jssy" class="nav-icon">
+    <image src="/packB/images/课程.png"class="nav-icon"></image>
+  <view class="nav-icon">首页</view>
+  </navigator>
+  <navigator url="/packA/pages/jswd/jswd" class="nav-icon">
+    <image src="/packB/images/我的.png"class="nav-icon"></image>
+  <view class="nav-icon">我的</view>
+  
+  </navigator>
+
+</view>
+  
+</view>   
+   

@@ -1,0 +1,40 @@
+<!--pages/jssy/jssy.wxml-->
+<view class='background'>
+    <image class='background-image'src='/packA/images/背景图1.png'></image>
+    <view class ='background-content'>
+        <view class="container1">
+        <view class="container1-text">
+         <view class="textsample">
+               <view class="textsample1">我的课程 </view>
+               <navigator class="pc-image0" url="/packB/pages/cjkc/cjkc">
+                <image class="pc-image" src="/packA/images/add.png"></image>
+               </navigator>
+          </view>
+         </view>
+          <image class='container1-image'src='/packA/images/k3.png'> </image>
+        </view>
+
+        <view wx:for="{{classname}}" wx:key="index" class="container2" bindtap="resultlist" data-index="{{index}}" wx:if="{{classname.length > 0 && building.length > 0 && classroom.length > 0 && classdate.length > 0 && classtime.length > 0}}">
+  <view class='text3' >{{item}}</view>
+  <view class='text4'>{{building[index]}}{{classroom[index]}}  {{classdate[index]}}{{classtime[index]}}</view>
+  <!-- 在这里放置你想要生成的按钮 -->
+</view>
+ 
+
+<view class="navbar">
+  <navigator url="/packA/pages/jssy/jssy" class="nav-icon">
+    <image src="/packA/images/课程.png"class="nav-icon"></image>
+  <view class="nav-icon">首页</view>
+  </navigator>
+  <navigator url="/packA/pages/jswd/jswd" class="nav-icon">
+    <image src="/packA/images/我的.png"class="nav-icon"></image>
+  <view class="nav-icon">我的</view>
+  
+  </navigator>
+
+</view>
+
+<navigator url="/newpages/pages/zjl/zjl"><button>跳转</button>
+</navigator>
+    </view>
+</view>

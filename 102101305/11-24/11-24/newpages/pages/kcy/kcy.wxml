@@ -1,0 +1,28 @@
+<!--newpages/pages/kcy/kcy.wxml-->
+<view class='background'>
+    <image class='background-image'src='/newpages/images/背景图2.png'></image>
+    <view class ='background-content'>
+        <navigator class="pc-image0" url="/packA/pages/jssy/jssy">
+                <image class="pc-image" src="/newpages/images/返回.png"></image>
+               </navigator>
+
+        <view class="container1">
+            <view class='text3' >{{classname}}</view>
+            <view class='text4'>{{building}}{{classroom}}    {{classdate}}{{classtime}}</view>
+        </view>
+
+        <view class="botton-container">
+        <button class="custom-button" bindtap="jumptodmy">全部点名</button>
+        <button class="custom-button"bindtap="jumptodmy1">抽查点名</button>
+        </view>
+        <view class="botton-container1">
+        <button class="custom-button"bindtap="jumptojl">查看记录</button>
+        </view> 
+         <view class='container2'>
+            <view class="container2-image">
+                <image class="container2-image" src="/newpages/images/k4.png"></image>
+            </view>
+        </view> 
+
+    </view>
+</view>

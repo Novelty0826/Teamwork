@@ -1,0 +1,31 @@
+<view class='background'>
+  <image class='background-image'src='/newpages/images/背景图2.png'></image>
+  <view class='background-content'>
+    <view class="container">
+      <view class="list-container">
+          <view class="list-title" >请假名单 ({{leaveCount}})</view>
+          <view wx:for="{{leaveList}}" wx:key="index" class="list-item">
+            <text class='text1'>{{leaveList[index].id}}  {{leaveList[index].name}}</text>
+            <button class="bottontype" bindtap="changeStatus" data-index="{{index}}" data-list="leaveList"style="width:250rpx" >修改</button>
+          </view>
+
+          <!-- <view class="list-container"> -->
+          <view class="list-title">旷课名单 ({{absentCount}})</view>
+            <view wx:for="{{absentList}}" wx:key="index" class="list-item">
+              <text class='text1'>{{absentList[index].id}} {{absentList[index].name}}</text>
+              <button class="bottontype" bindtap="changeStatus" data-index="{{index}}" data-list="absentList" style="width:250rpx">修改</button>
+          </view>
+          <!-- </view> -->
+
+      </view>
+
+    <view class="container2">
+      <button style="width: 300rpx;" class="button2" bindtap="submitAbsencesToBackend">保存</button>
+
+      <button style="width: 300rpx;" class="button2" bindtap="saveResult">二次点名</button>
+    </view>
+  
+  </view>
+
+</view>
+</view>

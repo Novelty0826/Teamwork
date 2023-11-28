@@ -1,0 +1,25 @@
+
+<view class='background'>
+    <image class='background-image'src='/newpages/images/背景图4png.png'></image>
+    <view class ='background-content'>
+         <view class="container" 
+        bindtouchstart="touchStart"
+        bindtouchmove="touchMove"
+        bindtouchend="touchEnd">
+   
+    <view class="student-card">
+    <text class="student-id">{{students[currentStudentIndex].id}}</text>
+    <text class="student-pinyin"> {{ students[currentStudentIndex].pinyin }}</text>
+    <text class="student-name">{{students[currentStudentIndex].name}}</text>
+    <text class="student-status"> {{students[currentStudentIndex].status}}</text>
+    <text>{{currentStudentIndex+1}}/{{students.length}}</text>
+    </view>
+
+ </view>
+
+
+
+    </view> 
+
+</view>
+

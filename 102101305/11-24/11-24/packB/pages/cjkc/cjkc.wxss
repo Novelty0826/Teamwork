@@ -1,0 +1,190 @@
+/* pages/zcjm/zcjm.wxss *//* pages/dljm/dljm.wxss */
+.background {
+    display: flex;
+    flex-direction: column;
+    z-index: -999;
+}
+
+.background-image {
+    width: 750rpx;
+    height: 1334rpx;
+    
+}
+
+
+
+.container1{
+    background-color: rgba(199, 196, 218, 0.3);
+    border: 1rpx solid #eee;
+    border-radius: 20rpx;
+        position: absolute;
+        text-align: center;
+        
+
+        top: 220rpx;
+        left:70rpx;
+        width: 300px;
+        height: 600px;
+}
+
+.text1{
+    text-align: center;
+    font-size: 46rpx;
+    margin-top: 40rpx;
+}
+
+.sj-image{
+    width:80rpx;
+    height: 80rpx;
+    margin-left: 5rpx;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 20rpx;
+    margin-right: 15rpx;
+    margin-top: 20rpx;
+}
+.ps-image{
+    width:72rpx;
+    height: 72rpx;
+    margin-left: 5rpx;
+}
+input{
+    border: 4rpx solid #eee;
+    width: 530rpx;
+    margin: 10rpx;
+    padding: 10rpx;
+    height: 48rpx;
+    border-radius: 100rpx;
+    font-size: 40rpx;
+}
+.sm-image{
+    width:80rpx;
+    height: 80rpx;
+    margin-left: 10rpx;
+}
+.choice{
+    align-items: center;
+    font-size: 36rpx;
+    height: 150rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    margin-top: 30rpx;
+}
+.text2{
+    margin-top: 30rpx;
+
+    font-size: 40rpx;
+}
+.choicebind
+{
+    background-color:rgb(107, 104, 104,0.2);
+
+    align-items: center;
+    width: 400rpx;
+    height: 80rpx;
+    margin-left: 90rpx;
+    margin-right: 10rpx;
+    margin-top: 30rpx;
+    border-radius: 25px;
+}
+.custom-button {
+    background-color: #f1f7f1; /* 背景颜色 */
+    border: none; /* 无边框 */
+    color: rgb(107, 104, 104); /* 文字颜色 */
+    text-align: center; /* 文字居中 */
+    text-decoration: none; /* 无下划线 */
+    display: inline-block; /* 行内块级元素 */
+     /* 字体大小 */
+    margin: 4px 2px; /* 外边距 */
+    cursor: pointer; /* 鼠标悬停时变为手形 */
+    border-radius: 25px; /* 圆角 */
+    font-size: 40rpx;
+    text-align: center;
+    margin-top: 200rpx;
+    margin-left: 50rpx;
+  }
+  .custom-button2 {
+    background-color: #f1f7f1; /* 背景颜色 */
+    border: none; /* 无边框 */
+    color: rgb(107, 104, 104); /* 文字颜色 */
+    text-align: center; /* 文字居中 */
+    text-decoration: none; /* 无下划线 */
+    display: inline-block; /* 行内块级元素 */
+     /* 字体大小 */
+    margin: 4px 2px; /* 外边距 */
+    cursor: pointer; /* 鼠标悬停时变为手形 */
+    border-radius: 25px; /* 圆角 */
+    font-size: 40rpx;
+    text-align: center;
+    margin-top: 50rpx;
+    margin-left: 50rpx;
+  }
+
+ .text3{
+     font-size: 40rpx;
+     
+
+ }
+ .choicebind
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-color:rgb(107, 104, 104,0.2);
+    align-items: center;
+    width: 550rpx;
+    height: 80rpx;
+
+    margin-left: 30rpx;
+    margin-top: 30rpx;
+    border-radius: 25px;
+    font-size: 40rpx;
+}
+
+/* 在页面的wxss文件中 */
+.picker {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 32rpx;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+
+    position: fixed;
+    bottom: 30rpx;
+    left:70rpx;
+    width: 80%;
+    height: 140rpx;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 25rpx;
+  }
+  
+  /* wxss */
+
+  
+  .nav-icon {
+    width: 36px;
+    height: 36px;
+    margin-top: 5rpx;
+  }
+  .pc-image0{
+    width: 36px;
+    height: 36px;
+    margin-top: 60rpx;
+    margin-left:30rpx ;
+}
+.pc-image{
+    width: 36px;
+    height: 36px;
+   
+}

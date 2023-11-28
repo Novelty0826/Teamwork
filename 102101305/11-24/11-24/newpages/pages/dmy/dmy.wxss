@@ -1,0 +1,67 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    width: 750rpx;
+    height: 1600rpx;
+}
+
+.background-image {
+    width: 750rpx;
+    height: 1600rpx;
+}
+.background-content {
+    position: absolute;
+    z-index: 1;
+   margin-top: 100rpx;
+
+   height: 1200rpx;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+
+height: 1334rpx;
+width: 750rpx;
+
+}
+
+.student-card {
+  width: 700rpx;
+  padding: 20px;
+  margin-top: 20rpx;
+  text-align: center;
+  
+  border-radius: 10px;
+  
+  display: flex;
+  flex-direction:column;
+  }
+  .student-id {
+    font-size: 120rpx;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+
+.student-name {
+  font-size: 180rpx;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.student-status {
+    height:51rpx;
+  font-size: 60px;
+  font-weight: 600;
+  color:green;
+}
+.student-pinyin{
+    font-size: 90rpx;
+   font-weight: bold;
+   margin-bottom: 20px;
+
+}

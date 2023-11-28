@@ -1,0 +1,53 @@
+<!--pages/dljm/dljm.wxml-->
+<view class='background'>
+ <image class='background-image'src='/images/背景图1.png'></image>
+  <view class ='background-content'>
+
+
+<!--导入logo-->
+<view class='container1'>
+    <view class="item">
+        <image src="/images/Logo.png"></image>
+    </view>
+</view>
+
+<view class='text1'>欢迎使用SIGN IN</view>
+
+<!--文本框-->
+<view class="wrap">
+<image src="/images/登录.png"class="zh-image"></image>
+<input placeholder="输入账号"  bindinput="inputhandler1"></input>
+</view>
+
+<view class="wrap">
+<image src="/images/password1.png"class="ps-image"></image>
+<input placeholder="输入密码"  bindinput="inputhandler2"></input>
+
+</view>
+<!--选择器-->
+<view class='choicebind'>
+  <picker  bindchange="pickerchange" range="{{items}}" value="{{index}}">
+  <view >{{items[index]}}</view>
+  </picker>
+</view>
+<!--按钮-->
+<view class="mybotton">
+<button class="my-button"bindtap="jump1">登录</button>
+
+</view>
+
+<view class='container2'>
+    <view class="container2-image">
+        <image class="container2-image" src="/images/k1.png"></image>
+    </view>
+</view>
+<navigator url="/packA/pages/jssy/jssy"><button>跳转</button>
+</navigator>
+
+    </view>
+  </view>
+
+  
+
+
+   

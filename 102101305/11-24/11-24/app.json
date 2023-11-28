@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/dljm/dljm"
+        
+    ],
+    "subpackages": [
+        {
+            "root": "newpages",
+            "name": "newpages",
+            "pages": [
+                "pages/dmy/dmy",
+                "pages/kcy/kcy",
+                "pages/dmy2/dmy2",
+                "pages/jly/jly",
+                "pages/zjl/zjl",
+                "pages/ccdm/ccdm",
+                "pages/cdmy/cdmy"
+            ]
+        },
+        {
+            "root": "packA",
+            "name": "packA",
+            "pages": [
+                "pages/jssy/jssy",
+                "pages/jswd/jswd"
+    
+            ]
+        },
+        {
+            "root": "packB",
+            "name": "packB",
+            "pages": [
+                "pages/cjkc/cjkc"
+    
+            ]
+        }
+
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "SIGN IN",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "style": "v2"
+}

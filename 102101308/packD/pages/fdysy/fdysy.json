@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "infoModel":"./infoModel/infoModel",
+      "multiStepModel":"./multiStepModel/multiStepModel"
+  }
+}

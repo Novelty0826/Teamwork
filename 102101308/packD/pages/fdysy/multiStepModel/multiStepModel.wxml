@@ -1,0 +1,9 @@
+<!--packA/pages/jssy/multiStepModel/multiStepModel.wxml-->
+<view class='model'>
+  <view class="close" bind:tap="close">x</view>
+  <view class="contnet">是否属实</view>
+  <view class="footer">
+  <button bind:tap="leave"  hover-class='hover' data-flag="{{0}}">否</button>
+  <button  hover-class='hover' bind:tap="leave" data-flag="{{1}}">是</button>
+  </view>
+</view>

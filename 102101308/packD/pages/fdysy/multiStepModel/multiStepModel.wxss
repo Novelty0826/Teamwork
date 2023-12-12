@@ -1,0 +1,41 @@
+/* packA/pages/jssy/multiStepModel/multiStepModel.wxss */
+.model {
+  position: fixed;
+  z-index: 9999;
+  background: rgb(255, 255, 255);
+  top: 40%;
+  left: 50%;
+  width: 78%;
+  margin: auto;
+  padding: 0 15px 10px;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  box-shadow: 3px 2px 10px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.model .close {
+  text-align: right;
+  font-size: 30px;
+
+}
+.contnet{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+ 
+}
+.footer{
+  display: flex;
+}
+.footer button{
+  width: 100px;
+  margin-bottom: 10px;
+
+}
+button{
+  background: rgb(38, 124, 204);
+  color: #fff;
+}
+.hover{
+  background: rgb(48, 146, 238);
+}

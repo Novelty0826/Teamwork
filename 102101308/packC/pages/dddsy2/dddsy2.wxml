@@ -1,0 +1,46 @@
+<!--pages/jssy/jssy.wxml-->
+<view class='background'>
+    <image class='background-image'src='/packC/images/背景图1.png'></image>
+    <view class ='background-content'>
+
+      <view class="container1">
+        <view class="container1-text">
+         <view class="textsample1">今日课程</view>
+         <view class="textsample2">{{formattedDate}}</view>
+         <view class="textsample3">{{zhou}}</view>
+         </view>
+          <image class='container1-image'src='/packC/images/k2.png'> </image>
+      </view>
+
+      <view>
+        <view bindtap="ca1">教室楼</view>
+        <view wx:for="{{lou1}}" wx:key="*this" bindtap="xu1"data-index="{{index}}">{{item}}</view>
+        <view bindtap="ca2">教室</view>
+        <view wx:for="{{lou2}}" wx:key="*this"bindtap="xu2"data-index="{{index}}">{{item}}</view>
+        <view bindtap="ca3">节数</view>
+        <view wx:for="{{lou3}}" wx:key="*this"bindtap="xu3"data-index="{{index}}">{{item}}</view>
+      </view>
+
+      <view wx:for="{{classname}}" wx:key="index" class="container2" bindtap="resultlist" data-index="{{index}}" wx:if="{{classname.length > 0 && building.length > 0 && classroom.length > 0 && classdate.length > 0 && classtime.length > 0}}">
+      <view class='text3' >{{item}}</view>
+      <view class='text4'>{{building[index]}}{{classroom[index]}}  {{classdate[index]}}{{classtime[index]}}</view>
+  <!-- 在这里放置你想要生成的按钮 -->
+      </view>
+ 
+
+<view class="navbar">
+  <navigator url="/packC/pages/dddsy2/dddsy2" class="nav-icon">
+    <image src="/packC/images/课程.png"class="nav-icon"></image>
+  <view class="nav-icon">首页</view>
+  </navigator>
+  <navigator url="/packC/pages/dddwd/dddwd" class="nav-icon">
+    <image src="/packC/images/我的.png"class="nav-icon"></image>
+  <view class="nav-icon">我的</view>
+  
+  </navigator>
+
+</view>
+
+
+    </view>
+</view>

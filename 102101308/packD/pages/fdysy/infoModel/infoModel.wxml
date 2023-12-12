@@ -1,0 +1,25 @@
+<view class='model'>
+    <view class="close" bind:tap="close">x</view>
+    <view class='table'>
+      <view class="tr">
+        <view class='label'>日期</view> 
+        <view class='value'>{{form.date}}</view>
+      </view>
+      <view class="tr">
+        <view class='label'>节数</view> 
+        <view class='value'>{{form.detail_time}}</view>
+      </view>
+      <view class="tr">
+        <view class='label'>地点</view> 
+        <view class='value'>{{form.place}}</view>
+      </view>
+      <view class="tr">
+        <view class='label'>课程</view> 
+        <view class='value'>{{form.course}}</view>
+      </view>
+      <view class="tr">
+        <view class='label'>任课老师</view> 
+        <view class='value'>{{form.teacher}}</view>
+      </view>
+    </view>
+  </view>

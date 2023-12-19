@@ -1,0 +1,44 @@
+<!--packE/pages/bjy/bjy.wxml-->
+<!--newpages/pages/kcy/kcy.wxml-->
+<view class='background'>
+    <image class='background-image'src='/packE/images/背景图2.png'></image>
+    <view class ='background-content'>
+        <view class='container1'>
+            <view class="text1">计算机科学与技术</view>
+        </view>
+
+        <view class="container2"> 
+            <view class="classbox">
+                <view class="text2" bindtap="gobjxq">计算机一班</view>
+            </view>
+            <view class="classbox">
+                <view class="text2">计算机二班</view>
+            </view>
+            <view class="classbox">
+                <view class="text2">计算机三班</view>
+            </view>
+            <view class="classbox">
+                <view class="text2">计算机四班</view>
+            </view> 
+            <view class="classbox">
+                <view class="text2">计算机五班</view>
+            </view>
+            <view class="classbox">
+                <view class="text2">计算机六班</view>
+            </view>
+        </view>
+
+    <view class="navbar">
+        <view class="nav-icon" bindtap="gofdysy">
+             <image src="/packE/images/课程.png"class="nav-icon"></image>
+            <view class="nav-icon">首页</view>
+        </view>
+        <view class="nav-icon" bindtap="gofdywd">
+            <image src="/packE/images/我的.png"class="nav-icon"></image>
+            <view class="nav-icon">我的</view>
+        </view>
+
+</view>
+
+    </view>
+</view>

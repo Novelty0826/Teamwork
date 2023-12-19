@@ -1,0 +1,43 @@
+<!--packE/pages/bjxq/bjxq.wxml-->
+<!--packE/pages/bjy/bjy.wxml-->
+<!--newpages/pages/kcy/kcy.wxml-->
+<view class='background'>
+    <image class='background-image'src='/packE/images/背景图2.png'></image>
+    <view class ='background-content'>
+        <view class='container1'>
+            <view class="text1">计算机科学与技术</view>
+            <view class="text2">计算机一班</view>
+        </view>
+
+        <view class="container2"> 
+            <view class="table-row">
+    <view class="table-cell" >学号</view>
+    <view class="table-cell">姓名</view>
+    <view class="table-cell" >缺勤次数</view>
+    <view class="table-cell" >详情</view>
+  </view>
+   <block wx:for="{{jsonData}}" wx:for-item="item" wx:for-index="index">
+    <view class="table-row">
+      <view class="table-cell">{{item.student_number}}</view>
+      <view class="table-cell" >{{item.student_name}}</view>
+      <view class="table-cell" >{{item.absence_count}}</view>
+      <view class="table-cell" bindtap="showdetails" data-index="{{index}}">查看</view>
+    </view>
+  </block>
+               
+        </view>
+
+    <view class="navbar">
+        <view class="nav-icon" bindtap="gofdysy">
+             <image src="/packE/images/课程.png"class="nav-icon"></image>
+            <view class="nav-icon">首页</view>
+        </view>
+        <view class="nav-icon" bindtap="gofdywd">
+            <image src="/packE/images/我的.png"class="nav-icon"></image>
+            <view class="nav-icon">我的</view>
+        </view>
+
+</view>
+
+    </view>
+</view>

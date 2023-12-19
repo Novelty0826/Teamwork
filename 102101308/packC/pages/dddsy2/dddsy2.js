@@ -279,7 +279,12 @@ Page({
         
 
     },
-
+    goddddmy:function(){
+        console.log('dianl')
+        wx.navigateTo({
+          url: '/packC1/pages/ddddm/ddddm',
+        })
+    },
     /**
      * 生命周期函数--监听页面初次渲染完成
      */

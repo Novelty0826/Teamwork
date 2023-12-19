@@ -1,3 +1,4 @@
+// packD/pages/fdywd/fdywd.js
 // packC/pages/dddwd/dddwd.js
 
 const app=getApp()
@@ -99,18 +100,24 @@ wx.request({
 
 godddsy:function(){
   wx.redirectTo({
-    url: '/packC/pages/dddsy2/dddsy2',
+    url: '/packD/pages/fdysy/fdysy',
   })
 },
 godddwd:function(){
   wx.redirectTo({
-    url: '/packC/pages/dddwd/dddwd',
+    url: '/packD/pages/fdywd/fdywd',
   })
 },
 gocjkc:function(){
   wx.redirectTo({
-    url: '/packB/pages/dddcjkc/dddcjkc',
+    url: '/packB/pages/cjkc/cjkc',
   })
-}
+},
+gobjy:function(){
+    wx.redirectTo({
+      url: '/packE/pages/bjy/bjy',
+    })
+  }
+
 
 })

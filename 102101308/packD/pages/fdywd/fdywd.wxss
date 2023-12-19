@@ -1,3 +1,4 @@
+/* packD/pages/fdywd/fdywd.wxss */
 /* packC/pages/dddwd/dddwd.wxss */
 /* pages/jssy/jssy.wxss */
 .background {
@@ -49,8 +50,8 @@
     margin-left:10rpx ;
 }
 .pc-image{
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
    
 }
 .textsample1
@@ -71,25 +72,27 @@
 }
 .container2{
     background-color: rgb(25, 215, 175);
-    height:240rpx;
+    height:190rpx;
     width:500rpx;
-    display: flex;
+
     justify-content: center;
+    text-align: center;
     margin-top:50rpx; 
     margin-left:75rpx ;
-  
+  display: flex;
     border-radius: 25rpx;
-    display: flex;
-    flex-direction:column;
+ 
+  
   
 }
 .text3{
     font-size: 45rpx;
     height:100rpx;
     width:500rpx;
-    
-    margin-top:40rpx; 
-    margin-left: 30rpx;
+
+    text-align: center;
+    margin-top:60rpx; 
+  
 }
 .text4{
     font-size: 38rpx;
@@ -129,8 +132,13 @@
       width: 650rpx;
       margin-top: 50rpx;
       margin-left: 50rpx;
-      display: flex;
-       justify-content: center; /*水平*/
+
+       
        flex-direction: column;
        overflow: auto;
   }
+.text5{
+    margin-top: 60rpx;
+    font-size: 40rpx;
+    text-align: center
+}

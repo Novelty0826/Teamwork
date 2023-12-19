@@ -1,5 +1,4 @@
-// packC/pages/dddwd/dddwd.js
-
+// pages/jssy/jssy.js
 const app=getApp()
 Page({
     data: {
@@ -97,19 +96,19 @@ wx.request({
         });
       },
 
-godddsy:function(){
+gojssy:function(){
   wx.redirectTo({
-    url: '/packC/pages/dddsy2/dddsy2',
+    url: '/packA/pages/jssy/jssy',
   })
 },
-godddwd:function(){
+gojswd:function(){
   wx.redirectTo({
-    url: '/packC/pages/dddwd/dddwd',
+    url: '/packA/pages/jswd/jswd',
   })
 },
 gocjkc:function(){
   wx.redirectTo({
-    url: '/packB/pages/dddcjkc/dddcjkc',
+    url: '/packB/pages/cjkc/cjkc',
   })
 }
 

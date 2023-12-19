@@ -10,6 +10,8 @@
       </view>
       <image class='container1-image' src='/packD/images/k2.png'> </image>
     </view>
+
+    <view class="box-container">
     <view class='info-box'>
       <view class="title">请假消息</view>
       <view wx:for="{{leaveList}}" wx:key="index" data-index="{{index}}" class="list">
@@ -32,6 +34,9 @@
         <button class="item-btn" bindtap="detailOpen" data-item="{{item}}">详情</button>
       </view>
     </view>
+    
+</view>
+
     <infoModel wx:if="{{infoModelVisible}}" form="{{formItem}}" bindclone="cloneModel"></infoModel>
     <multiStepModel wx:if="{{multiStepModelVisible}}" id="{{message_id}}" bindclone="cloneMultiStepModel"></multiStepModel>
   </view>
@@ -48,7 +53,7 @@
       <image src="/packD/images/课程.png" class="nav-icon"></image>
       <view class="nav-icon">首页</view>
     </navigator>
-    <navigator url="/packA/pages/jswd/jswd" class="nav-icon">
+    <navigator url="/packD/pages/fdywd/fdywd" class="nav-icon">
       <image src="/packD/images/我的.png" class="nav-icon"></image>
       <view class="nav-icon">我的</view>
 

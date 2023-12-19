@@ -1,5 +1,8 @@
-/* packC/pages/dddwd/dddwd.wxss */
 /* pages/jssy/jssy.wxss */
+.c1{
+  margin-top: 50rpx;
+}
+
 .background {
     display: flex;
     flex-direction: column;
@@ -38,21 +41,6 @@
     width:300rpx;
     height:37s0rpx;
 }
-.textsample{
-    display: flex;
-    flex-direction:row;
-}
-.pc-image0{
-    width: 36px;
-    height: 36px;
-    margin-top: 60rpx;
-    margin-left:10rpx ;
-}
-.pc-image{
-    width: 36px;
-    height: 36px;
-   
-}
 .textsample1
 {
     font-size: 50rpx;
@@ -75,9 +63,8 @@
     width:500rpx;
     display: flex;
     justify-content: center;
-    margin-top:50rpx; 
-    margin-left:75rpx ;
-  
+    margin-top:60rpx; 
+    margin-left: 120rpx;
     border-radius: 25rpx;
     display: flex;
     flex-direction:column;
@@ -122,15 +109,29 @@
     height: 36px;
     margin-top: 5rpx;
   }
-
-  .classcontainer{
-    
-      height: 850rpx;
-      width: 650rpx;
-      margin-top: 50rpx;
-      margin-left: 50rpx;
+  .container1-text
+  {
+      width:300rpx;
+      height:37s0rpx;
+  }
+  .textsample{
       display: flex;
-       justify-content: center; /*水平*/
-       flex-direction: column;
-       overflow: auto;
+      flex-direction:row;
+  }
+  .pc-image0{
+      width: 36px;
+      height: 36px;
+      margin-top: 60rpx;
+      margin-left:10rpx ;
+  }
+  .pc-image{
+      width: 36px;
+      height: 36px;
+     
+  }
+  .textsample1
+  {
+      font-size: 50rpx;
+      text-align: center;
+      margin-top: 60rpx;
   }

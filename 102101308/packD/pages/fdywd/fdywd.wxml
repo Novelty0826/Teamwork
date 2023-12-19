@@ -1,0 +1,48 @@
+<!--packD/pages/fdywd/fdywd.wxml-->
+<!--pages/dddsy/dddsy.wxml-->
+<view class='background'>
+    <image class='background-image'src='/packD/images/背景图1.png'></image>
+    <view class ='background-content'>
+        <view class="container1">
+        <view class="container1-text">
+         <view class="textsample">
+               <view class="textsample1">我的管理 </view>
+               <view class="pc-image0" bindtap="gocjkc">
+                <image class="pc-image" src="/packD/images/修改.png"></image>
+               </view>
+               
+          </view>
+          <view class="text5">计算机与大数据学院</view>
+         </view>
+          <image class='container1-image'src='/packD/images/k3.png'> </image>
+        </view>
+<view class="classcontainer">
+        <view  class="container2" >
+  <view class='text3'bindtap="gobjy" >计算机科学与技术</view>
+        </view>
+        <view  class="container2" >
+  <view class='text3' >信息安全</view>
+        </view>
+        <view  class="container2" >
+  <view class='text3' >人工智能</view>
+        </view>
+        
+</view>
+ 
+
+<view class="navbar">
+  <view class="nav-icon" bindtap="godddsy">
+    <image src="/packD/images/课程.png"class="nav-icon"></image>
+  <view class="nav-icon">首页</view>
+  </view>
+  <view class="nav-icon" bindtap="godddwd">
+    <image src="/packD/images/我的.png"class="nav-icon"></image>
+  <view class="nav-icon">我的</view>
+  
+  </view>
+
+</view>
+
+
+    </view>
+</view>

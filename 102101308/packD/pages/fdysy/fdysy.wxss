@@ -192,3 +192,8 @@
   color: #ffff;
   margin: 5px 0;
 }
+.box-container{
+    margin-top: 20rpx;
+    height: 850rpx;
+    overflow: auto;
+}
